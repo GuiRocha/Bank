@@ -48,7 +48,7 @@ describe ContaCorrente do
         it 'vejo mensagem' do
           expect(@conta.mensagem).to eql 'Saldo insuficiente para o saque'
         end
-        it 'meu saldo permanece comforme o valor inicial' do
+        it 'meu saldo permanece conforme o valor inicial' do
           expect(@conta.saldo).to eql 100.00
         end
       end
@@ -61,7 +61,7 @@ describe ContaCorrente do
         it 'vejo mensagem' do
           expect(@conta.mensagem).to eql 'Limite maximo para saque e 700'
         end
-        it 'meu saldo permanece comforme o valor inicial' do
+        it 'meu saldo permanece conforme o valor inicial' do
           expect(@conta.saldo).to eql 1000.00
         end
       end
